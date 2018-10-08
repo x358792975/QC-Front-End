@@ -2,16 +2,34 @@ body {
   padding: 50px;
   font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: aqua;
+  background-image: url(/images/img2.jpeg);
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-a {
-  color: rgb(9, 255, 0);
-  font-family: Arial, Helvetica, sans-serif;
+.container {
+  height:50px;
 }
+ul {
+  margin-left: 100px;
+  position:center;
+  padding: 10;
+}
+
+li {
+  display: -webkit-inline-box;
+  color: blanchedalmond;
+  padding: 8px 26px;
+  text-decoration: rgb(147, 210, 30);
+}
+
+
+
 
 .mainContent {
   block-size:fit-content;
-  background-image: url(/images/img1.jpg);
 }
 
 .secondContent{
