@@ -2,6 +2,30 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+        
+
   body
-    block content
+    link(href='/stylesheets/style.css', rel='stylesheet')
+    block navBar
+        div.container
+            ul
+                a(class='active' href="home")
+                    li Home
+                a(href="register")
+                    li Register
+                a(href="login")
+                    li Login
+                a(href="aboutUs")
+                    li About Us
+                a(href="contactUs")
+                    li Contact Us
+                a(href="donateUs")
+                    li Donate Us
+    block myContent
+        div.mainContent
+            h1 Content1
+              p Hello World
+
+    block content2
+
+    block content3
